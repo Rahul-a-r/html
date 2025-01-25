@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Common HTML Tags Reference</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 20px;
+        }
+        h1, h2 {
+            color: #333;
+        }
+        pre {
+            background: #f4f4f4;
+            padding: 10px;
+            border-left: 3px solid #ccc;
+            overflow-x: auto;
+        }
+        code {
+            color: #c7254e;
+            background: #f9f2f4;
+            padding: 2px 4px;
+            border-radius: 4px;
+        }
+        ul {
+            margin-left: 20px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Common HTML Tags Reference</h1>
+    </header>
+
+    <main>
+        <section>
+            <h2>1. Basic Structure Tags</h2>
+            <ul>
+                <li><code>&lt;html&gt;</code>: The root element that wraps all content on the page.</li>
+                <li><code>&lt;head&gt;</code>: Contains metadata and links to stylesheets, scripts, and other resources.</li>
+                <li><code>&lt;title&gt;</code>: Defines the title of the document (displayed on the browser tab).</li>
+                <li><code>&lt;body&gt;</code>: Contains the visible content of the webpage.</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>2. Text Content Tags</h2>
+            <ul>
+                <li><code>&lt;h1&gt; to &lt;h6&gt;</code>: Heading tags, <code>&lt;h1&gt;</code> is the largest, <code>&lt;h6&gt;</code> is the smallest.</li>
+                <li><code>&lt;p&gt;</code>: Paragraph tag for blocks of text.</li>
+                <li><code>&lt;a&gt;</code>: Anchor tag for hyperlinks. Example: <pre><code>&lt;a href="https://example.com"&gt;Click Here&lt;/a&gt;</code></pre></li>
+                <li><code>&lt;strong&gt;</code>: Indicates strong importance, typically rendered in bold.</li>
+                <li><code>&lt;em&gt;</code>: Emphasizes text, typically rendered in italics.</li>
+                <li><code>&lt;br&gt;</code>: Inserts a line break.</li>
+                <li><code>&lt;hr&gt;</code>: Creates a horizontal line (thematic break).</li>
+                <li><code>&lt;span&gt;</code>: Inline container for styling or grouping small parts of text.</li>
+                <li><code>&lt;div&gt;</code>: Block-level container for grouping content.</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>3. List Tags</h2>
+            <ul>
+                <li><code>&lt;ul&gt;</code>: Unordered list (bulleted).</li>
+                <li><code>&lt;ol&gt;</code>: Ordered list (numbered).</li>
+                <li><code>&lt;dl&gt;</code>: Definition list.</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>4. Media Tags</h2>
+            <ul>
+                <li><code>&lt;img&gt;</code>: Displays an image. Example: <pre><code>&lt;img src="image.jpg" alt="Description"&gt;</code></pre></li>
+                <li><code>&lt;audio&gt;</code>: Embeds audio files. Example: <pre><code>&lt;audio controls src="audio.mp3"&gt;&lt;/audio&gt;</code></pre></li>
+                <li><code>&lt;video&gt;</code>: Embeds video files. Example: <pre><code>&lt;video controls src="video.mp4"&gt;&lt;/video&gt;</code></pre></li>
+                <li><code>&lt;iframe&gt;</code>: Embeds external content. Example: <pre><code>&lt;iframe src="https://example.com"&gt;&lt;/iframe&gt;</code></pre></li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>5. Table Tags</h2>
+            <ul>
+                <li><code>&lt;table&gt;</code>: Defines a table.</li>
+                <li><code>&lt;tr&gt;</code>: Table row.</li>
+                <li><code>&lt;th&gt;</code>: Table header cell.</li>
+                <li><code>&lt;td&gt;</code>: Table data cell.</li>
+                <li><code>&lt;thead&gt;</code>: Groups header rows.</li>
+                <li><code>&lt;tbody&gt;</code>: Groups body rows.</li>
+                <li><code>&lt;tfoot&gt;</code>: Groups footer rows.</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>6. Form Tags</h2>
+            <ul>
+                <li><code>&lt;form&gt;</code>: Creates a form for user input.</li>
+                <li><code>&lt;input&gt;</code>: Accepts user input. Example: <pre><code>&lt;input type="text" placeholder="Enter your name"&gt;</code></pre></li>
+                <li><code>&lt;label&gt;</code>: Labels for form elements (improves accessibility).</li>
+                <li><code>&lt;textarea&gt;</code>: Multiline text input.</li>
+                <li><code>&lt;button&gt;</code>: Clickable button.</li>
+                <li><code>&lt;select&gt;</code>: Dropdown menu.</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>7. Semantic Tags</h2>
+            <ul>
+                <li><code>&lt;header&gt;</code>: Represents a header section.</li>
+                <li><code>&lt;nav&gt;</code>: Defines navigation links.</li>
+                <li><code>&lt;main&gt;</code>: Main content of the page.</li>
+                <li><code>&lt;section&gt;</code>: Groups related content.</li>
+                <li><code>&lt;article&gt;</code>: Represents an independent piece of content.</li>
+                <li><code>&lt;aside&gt;</code>: Sidebar content, such as ads or related links.</li>
+                <li><code>&lt;footer&gt;</code>: Footer section of a document.</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>8. Metadata and Resource Tags</h2>
+            <ul>
+                <li><code>&lt;meta&gt;</code>: Defines metadata for the document (e.g., charset, viewport).</li>
+                <li><code>&lt;link&gt;</code>: Links external resources, like stylesheets. Example: <pre><code>&lt;link rel="stylesheet" href="styles.css"&gt;</code></pre></li>
+                <li><code>&lt;style&gt;</code>: Embeds CSS styles directly in HTML.</li>
+                <li><code>&lt;script&gt;</code>: Embeds JavaScript code or links an external JS file.</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>9. Interactive Content Tags</h2>
+            <ul>
+                <li><code>&lt;details&gt;</code>: Creates a collapsible content block.</li>
+                <li><code>&lt;dialog&gt;</code>: Defines a dialog box or popup.</li>
+                <li><code>&lt;progress&gt;</code>: Displays progress of a task.</li>
+                <li><code>&lt;meter&gt;</code>: Represents a scalar measurement (e.g., disk usage).</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>10. Other Useful Tags</h2>
+            <ul>
+                <li><code>&lt;abbr&gt;</code>: Represents an abbreviation or acronym. Example: <pre><code>&lt;abbr title="HyperText Markup Language"&gt;HTML&lt;/abbr&gt;</code></pre></li>
+                <li><code>&lt;code&gt;</code>: Displays code snippets.</li>
+                <li><code>&lt;pre&gt;</code>: Preserves whitespace formatting.</li>
+                <li><code>&lt;blockquote&gt;</code>: For long quotations.</li>
+                <li><code>&lt;cite&gt;</code>: Cites a source.</li>
+                <li><code>&lt;mark&gt;</code>: Highlights text.</li>
+                <li><code>&lt;time&gt;</code>: Represents a time or date.</li>
+                <li><code>&lt;address&gt;</code>: Represents contact information. Example: <pre><code>&lt;address&gt;123 Main Street, Anytown, USA&lt;/address&gt;</code></pre></li>
+            </ul>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Common HTML Tags Reference Guide</p>
+    </footer>
+</body>
+</html>
